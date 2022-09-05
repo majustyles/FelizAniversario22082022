@@ -7,15 +7,29 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/androidparty" />
+
+    <ImageView
         android:id="@+id/imageView3"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/androidparty" />
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/androidparty"
+        tools:srcCompat="@drawable/androidparty" />
 
     <TextView
         android:id="@+id/textView"
@@ -24,7 +38,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-light"
-        android:text="Feliz Aniversario,Lorenzin!"
+        android:text="@string/felizAniversario"
         android:textColor="@android:color/black"
         android:textSize="36sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +51,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="sans-serif-light"
-        android:text="Ass.Maju"
+        android:text="@string/assinatura"
         android:textColor="@android:color/black"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"

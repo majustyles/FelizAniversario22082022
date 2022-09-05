@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FelizAniversario</string>
+    <string name="felizAniversario">Feliz Aniversario, Lorenzin!</string>
+    <string name="assinatura">Maju</string>
+
+
 </resources>
